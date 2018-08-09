@@ -36,7 +36,7 @@ A step by step tutorial on how to install the project to your own local machine.
 
 
 ## Project Versioning
-### Version 1.0 
+### System Version 1.0 
 
 ## License
 
