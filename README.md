@@ -8,6 +8,12 @@ Initial Structure by: John Edel B. Tamani
 ### Project Detail 
 * Project Name:
 
+## Built With
+
+* [ReactJS](https://reactjs.org/) - JavaScript Library 
+* [Gatsby.js](https://www.gatsbyjs.org/) - Static site generator for React
+* [Netlify](https://www.netlify.com/) - Deployment Platform 
+
 
 ## Project Dependency Set-up  
 ### Installing
@@ -16,28 +22,23 @@ A step by step tutorial on how to install the project to your own local machine.
 
 
 
-## Deployment
+### Deployment
 
-
-
-## Built With
-
-* [ReactJS](https://reactjs.org/) - JavaScript Library 
-* [Gatsby.js](https://www.gatsbyjs.org/) - Static site generator for React
-* [Netlify](https://www.netlify.com/) - Deployment Platform 
 
 ## Contributing
 
-
-## Versioning
-
-
-
-## Authors
+### Authors
 
 * **John Edel B. Tamani** 
 
+### Acknowledgments
 
+* User Experience Society 
+
+
+
+## Project Versioning
+### Version 1.0 
 
 ## License
 
@@ -66,6 +67,3 @@ SOFTWARE.
 ```
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for the full details.
 
-## Acknowledgments
-
-* User Experience Society 
