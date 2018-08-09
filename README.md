@@ -6,11 +6,10 @@ Initial Structure by: John Edel B. Tamani
 
 
 ### Project Detail 
+* Project Name:
 
 
-### Project Detail 
-
-
+## Project Dependency Set-up  
 ### Installing
 
 A step by step tutorial on how to install the project to your own local machine. 
