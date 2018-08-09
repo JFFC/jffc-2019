@@ -5,27 +5,26 @@
 Initial Structure by: John Edel B. Tamani 
 
 
-### Project Detail 
+## Project Details 
 * Project Name:
 
-## Built With
+
+
+## Project Dependency Set-up 
+### Built With
 
 * [ReactJS](https://reactjs.org/) - JavaScript Library 
 * [Gatsby.js](https://www.gatsbyjs.org/) - Static site generator for React
 * [Netlify](https://www.netlify.com/) - Deployment Platform 
 
-
-## Project Dependency Set-up  
 ### Installing
 
 A step by step tutorial on how to install the project to your own local machine. 
 
-
-
 ### Deployment
 
 
-## Contributing
+## Contributions 
 
 ### Authors
 
@@ -34,7 +33,6 @@ A step by step tutorial on how to install the project to your own local machine.
 ### Acknowledgments
 
 * User Experience Society 
-
 
 
 ## Project Versioning
