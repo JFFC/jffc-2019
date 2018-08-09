@@ -1,6 +1,6 @@
 
 # JFFC Website 2019 
-![alt text](https://github.com/JFFC/jffc-2019/edit/master/project-assets/jffc-logo.png)
+![alt text](https://github.com/JFFC/jffc-2019/edit/master/project-asset/jffc-logo.png)
 
 
 Initial Structure by: John Edel B. Tamani 
