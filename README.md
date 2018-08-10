@@ -34,10 +34,17 @@ A step by step tutorial on how to install the project to your own local machine.
 ### Acknowledgments
 
 * User Experience Society 
-
+* PWDO
+* JFFC
 
 ## Project Versioning
 ### System Version 1.0 
+#### System Development Kit Summary
+#### System Users
+#### System Process Flow
+#### System Modules
+#### System Performance Summary
+
 
 ## License
 
