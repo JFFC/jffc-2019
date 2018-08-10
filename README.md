@@ -7,11 +7,14 @@ Initial Structure by: John Edel B. Tamani
 
 
 ## Project Details 
+Note: This section contains all of the details about the project. 
+
 * Project Name:
 
 
 
 ## Project Dependency Set-up 
+Note: This section contains all of the project technical details and the guideline to install each dependency present in this project. 
 ### Built With
 
 * [ReactJS](https://reactjs.org/) - JavaScript Library 
@@ -26,19 +29,25 @@ A step by step tutorial on how to install the project to your own local machine.
 
 
 ## Contributions 
+Note: This section contains all of contributors of the project.
 
 ### Authors
 
 * **John Edel B. Tamani** : *UX/UI Developer* - See [Contact](https://www.linkedin.com/in/john-edel-tamani-9a8478131/) Details 
 
 ### Acknowledgments
+Note: This section contains all of contributors of the project.
 
 * User Experience Society 
 * PWDO
 * JFFC
 
 ## Project Versioning
+Note: This section contains a brief discussion about the versioning review of the project itself. 
+
 ### System Version 1.0 
+Note: This is the first release version of the project. 
+
 #### System Development Kit Summary
 #### System Users
 #### System Process Flow
@@ -47,6 +56,7 @@ A step by step tutorial on how to install the project to your own local machine.
 
 
 ## License
+Note: This section contains the license of the project.
 
 ```
 MIT License
