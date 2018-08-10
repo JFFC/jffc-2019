@@ -29,7 +29,7 @@ A step by step tutorial on how to install the project to your own local machine.
 
 ### Authors
 
-* **John Edel B. Tamani** * Developer * 
+* **John Edel B. Tamani** *UX/UI Developer* 
 
 ### Acknowledgments
 
