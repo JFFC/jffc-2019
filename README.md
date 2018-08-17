@@ -1,4 +1,6 @@
 
+Initial Structure by: John Edel B. Tamani 
+
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
@@ -9,19 +11,24 @@
 [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/compatibility-betamax.svg)](https://forthebadge.com)
 
+# JFFC Social Media
+*To keep updated on JFFC latest news. Connect and Join us here in our social media accounts.*
+
+[![Twitter](https://github.frapsoft.com/social/twitter.png)]()
+[![Facebook](https://github.frapsoft.com/social/facebook.png)]()
+[![Google+](https://github.frapsoft.com/social/google-plus.png)]()
+[![Gitter](https://github.frapsoft.com/social/gitter.png)]()
+[![Github](https://github.frapsoft.com/social/github.png)]()
+
 # JFFC Website 2019 
 ![Image Not Available](project-asset/jffc-fb-logo.png)
 
-
-Initial Structure by: John Edel B. Tamani 
 
 
 ## Project Details 
 Note: This section contains all of the details about the project. 
 
-* Project Name:
-
-
+* Project Name: JFFC Website 2019
 
 ## Project Dependency Set-up 
 Note: This section contains all of the project technical details and the guideline to install each dependency present in this project. 
