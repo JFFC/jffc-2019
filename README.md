@@ -12,7 +12,7 @@ Initial Structure by: John Edel B. Tamani
 [![forthebadge](https://forthebadge.com/images/badges/compatibility-betamax.svg)](https://forthebadge.com)
 
 # JFFC Social Media
-*To keep updated on JFFC latest news. Connect and Join us here in our social media accounts.*
+*To keep updated on JFFC latest news, CONNECT and JOIN us here in our social media accounts.*
 
 [![Twitter](https://github.frapsoft.com/social/twitter.png)]()
 [![Facebook](https://github.frapsoft.com/social/facebook.png)]()
