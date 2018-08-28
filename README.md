@@ -38,6 +38,7 @@ Note: This section contains all of the project technical details and the guideli
 * [ReactJS](https://reactjs.org/) - JavaScript Library 
 * [Gatsby.js](https://www.gatsbyjs.org/) - Static site generator for React
 * [Netlify](https://www.netlify.com/) - Deployment Platform 
+* [Gitmoji](https://gitmoji.carloscuesta.me/) - Emoji for Git Commit Messages 
 
 ### Installing
 
