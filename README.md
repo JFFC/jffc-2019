@@ -37,9 +37,9 @@ Note: This section contains all of the project technical details and the guideli
 
 * [ReactJS](https://reactjs.org/) - JavaScript Library 
 * [Gatsby.js](https://www.gatsbyjs.org/) - Static site generator for React
-* [Netlify](https://www.netlify.com/) - Deployment Platform 
-* [Gitmoji](https://gitmoji.carloscuesta.me/) - Emoji for Git Commit Messages 
-
+* [Netlify](https://www.netlify.com/) - Deployment Platform https://forthebadge.com/
+* [Gitmoji](https://gitmoji.carloscuesta.me/) - Emoji for Git Commit Messages
+* [ForTheBadge](https://forthebadge.com/) - Badges for Readme.md 
 ### Installing
 
 A step by step tutorial on how to install the project to your own local machine. 
