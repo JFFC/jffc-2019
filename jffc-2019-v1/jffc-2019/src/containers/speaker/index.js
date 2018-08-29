@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-class About extends Component {
+class Speaker extends Component {
     render(){
         return (
             <div></div>
         )
     }
 }
-export default About;
+export default Speaker;

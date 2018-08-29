@@ -3,10 +3,31 @@
 /*START OF THE APPLICATION CSS HERE*/
 /*Structure By: PrivateAirJET*/
 
+/* @font-face {
+  font-family: "Inovato-Regular";
+  src: url("../fonts/typefaces/Inovato-Regular.otf");
+} */
+
 #jffc-container{
   margin: 0;
   padding: 0;
   background-color: #3A3A3A;
+}
+
+.header-l{
+  height:112px;
+  background-color: red;
+}
+
+.JFFC-title{
+  position: absolute;
+  left: 80px;
+  top: 13px;
+  bottom: 12px;
+  line-height: 28px;
+  font-family: "Inovato-Regular";
+  line-height: normal;
+  font-size: 24px;
 }
 
 /************************************/
