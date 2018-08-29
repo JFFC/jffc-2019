@@ -25,12 +25,6 @@ class App extends Component {
     return (
       <Router>
         <div className="row header-l">
-          <NavLink to="/" activeStyle={{color:'green'}} exact={true}>Home</NavLink>
-          <NavLink to="/faqs">FAQs</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/speakers">Speakers</NavLink>
-          <NavLink to="/schedule">Schedule</NavLink>
-          <NavLink to="/sponsors">Sponsors</NavLink>
           <Route path="/" exact={true} strict component={Home}/>
           <Route path="/faqs" exact={true} strict component={FAQ}/>
           <Route path="/about" exact={true} strict component={About}/>
@@ -38,7 +32,12 @@ class App extends Component {
           <Route path="/schedule" exact={true} strict component={Schedule}/>
           <Route path="/sponsors" exact={true} strict component={Sponsor}/>
           <div className="col c12 cm12 s12">
-         
+            <NavLink to="/" activeStyle={{color:'green'}} exact={true}>Home</NavLink>
+            <NavLink to="/faqs" activeStyle={{color:'green'}} exact={true}>FAQs</NavLink>
+            <NavLink to="/about" activeStyle={{color:'green'}} exact={true}>About</NavLink>
+            <NavLink to="/speakers" activeStyle={{color:'green'}} exact={true}>Speakers</NavLink>
+            <NavLink to="/schedule" activeStyle={{color:'green'}} exact={true}>Schedule</NavLink>
+            <NavLink to="/sponsors" activeStyle={{color:'green'}} exact={true}>Sponsors</NavLink>
           </div>
         </div>
       </Router>
