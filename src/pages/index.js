@@ -14,7 +14,7 @@ const IndexPage = () => (
        }}>
         Join the premier student web design conference in Asia.
       </h1>
-      <p style={{color: "#EFEFEF"}}>Get your tickets now.</p>
+      <a href="http://www.google.com" style={{color: "#EFEFEF"}}>Get your tickets now.</a>
     </div>
   </LandingPage>
 )
