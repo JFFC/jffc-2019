@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "jffc-2019",
+  "description": "JFFC 2019 Conference Site",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Richard Parayno <richardparayno.design@gmail.com>",
   "dependencies": {
     "bulma": "^0.7.1",
     "gatsby": "next",
