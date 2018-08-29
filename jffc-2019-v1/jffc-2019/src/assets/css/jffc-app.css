@@ -1,4 +1,22 @@
-.App {
+
+/************************************/
+/*START OF THE APPLICATION CSS HERE*/
+/*Structure By: PrivateAirJET*/
+
+#jffc-container{
+  margin: 0;
+  padding: 0;
+  background-color: #3A3A3A;
+}
+
+/************************************/
+/* .
+Pre-Built by:ReactJS BoilerPlate from Facebook
+
+Commented out by: PrivateAirJET
+Updated date: August 29, 2018
+
+App {
   text-align: center;
 }
 
@@ -25,4 +43,6 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} 
+
+*/

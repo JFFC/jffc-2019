@@ -1,13 +1,24 @@
+/*Application Core*/
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+/*Application Resources*/
+import '../assets/css/jffc-app.css';
+import '../assets/css/jffc-lotus.css';
 import '../assets/css/jffc-lotus.css';
 
+/*Application Components*/
+import '../components/HeaderL';
+
 class App extends Component {
+
+  componentDidMount() {
+    document.body.id= "jffc-container";
+  }
+  
   render() {
     return (
-      <div className="App">
-       
+      <div>
+      
       </div>
     );
   }
