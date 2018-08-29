@@ -1,15 +1,22 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
+import LandingPage from '../components/landingpage';
 
 const IndexPage = () => (
-  <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  <LandingPage>
+    <div style={{maxWidth: 523}}>
+      <p style={{color: "#EFEFEF"}}>January 26 - 27, 2019</p>
+      <h1 style={{
+        color: "#EFEFEF",
+        fontFamily: "Inovato",
+        fontWeight: "400"
+       }}>
+        Join the premier student web design conference in Asia.
+      </h1>
+      <p style={{color: "#EFEFEF"}}>Get your tickets now.</p>
+    </div>
+  </LandingPage>
 )
 
 export default IndexPage

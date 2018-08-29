@@ -1,0 +1,32 @@
+#mainHeaderContainer {
+    background: #3A3A3A;
+    margin-bottom: '1.45rem';
+    color: #EFEFEF !important;
+}
+
+#mainHeaderContainer > div {
+    margin: 0 auto;
+    max-height: 112px;
+    max-width: 960px;
+    padding: 1.45rem 1.0875rem;
+}
+
+#mainHeaderContainer > div ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+#mainHeaderContainer > div ul li {
+    display: inline;
+    margin-right: 54px;
+}
+
+#mainHeaderContainer a {
+    text-decoration: none;
+    color: #EFEFEF;
+}
+
+#mainHeaderContainer h1 {
+    font-family: "Inovato";
+    word-wrap: "break-word";
+}
