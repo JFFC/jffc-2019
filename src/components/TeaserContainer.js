@@ -2,8 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import './fonts.css'
-
+import '../css/fonts.css'
+import '../css/main.css'
 
 const TeaserContainer = ({ children }) => (
     <StaticQuery
@@ -19,9 +19,8 @@ const TeaserContainer = ({ children }) => (
         render={data => (
         <>
             <Helmet
-            title={data.site.siteMetadata.title} 
-            bodyAttributes={{style: 'background-color: #3A3A3A'}}
-            /> 
+            title={data.site.siteMetadata.title}
+            />
             <div style={{
                 margin: '0 auto',
             }}>

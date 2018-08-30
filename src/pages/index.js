@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import TeaserContainer from '../components/TeaserContainer';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 

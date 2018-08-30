@@ -2,8 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Header from './Header'
-import './fonts.css'
+import Header from './header'
+import '../css/fonts.css'
 
 const MainContainer = ({ children }) => (
     <StaticQuery
@@ -20,7 +20,6 @@ const MainContainer = ({ children }) => (
         <>
             <Helmet
             title={data.site.siteMetadata.title} 
-            bodyAttributes={{style: 'background-color: #3A3A3A'}}
             /> 
             <Header/>
             <div style={{
