@@ -1,11 +1,10 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 
 import Header from './header'
 import '../css/fonts.css'
 
 
-const AlternateContainer = ({ children }) => (
+const alternatecontainer = ({ children }) => (
     <>
         <Header/>
         <div style={{
@@ -18,4 +17,4 @@ const AlternateContainer = ({ children }) => (
     </>
 )
 
-export default AlternateContainer
+export default alternatecontainer

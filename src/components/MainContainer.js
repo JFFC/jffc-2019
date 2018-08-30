@@ -2,10 +2,10 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Header from './Header'
+import Header from './header'
 import '../css/fonts.css'
 
-const MainContainer = ({ children }) => (
+const maincontainer = ({ children }) => (
     <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -34,4 +34,4 @@ const MainContainer = ({ children }) => (
     />
 )
 
-export default MainContainer
+export default maincontainer
