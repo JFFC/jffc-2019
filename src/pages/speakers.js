@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import AlternateContainer from '../components/alternatecontainer';
+import * as AlternateContainer from '../components/alternatecontainer';
 
 const SpeakersPage = () => (
   <AlternateContainer>
