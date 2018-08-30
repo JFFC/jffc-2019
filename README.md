@@ -1,12 +1,3 @@
-# JFFC Social Media
-*To keep updated on JFFC latest news, CONNECT and JOIN us here in our social media accounts.*
-
-[![Twitter](https://github.frapsoft.com/social/twitter.png)]()
-[![Facebook](https://github.frapsoft.com/social/facebook.png)]()
-[![Google+](https://github.frapsoft.com/social/google-plus.png)]()
-[![Gitter](https://github.frapsoft.com/social/gitter.png)]()
-[![Github](https://github.frapsoft.com/social/github.png)]()
-
 # JFFC Website 2019 
 
 
@@ -23,7 +14,7 @@ Note: This section contains all of the project technical details and the guideli
 
 * [ReactJS](https://reactjs.org/) - JavaScript Library 
 * [Gatsby.js](https://www.gatsbyjs.org/) - Static site generator for React
-* [Netlify](https://www.netlify.com/) - Deployment Platform https://forthebadge.com/
+* [Netlify](https://www.netlify.com/) - Deployment Platform
 
 ### Installing
 
