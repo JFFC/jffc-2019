@@ -1,5 +1,5 @@
 import React from 'react'
-import * as MainContainer from '../components/maincontainer';
+import MainContainer from '../components/MainContainer';
 
 
 const IndexPage = () => (

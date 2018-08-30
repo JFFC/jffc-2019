@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import '../css/header.css'
 
-const header = ({ siteTitle }) => (
+const Header = ({ siteTitle }) => (
   <div id="mainHeaderContainer">
     <div>
       <ul>
@@ -18,4 +18,4 @@ const header = ({ siteTitle }) => (
   </div>
 )
 
-export default header
+export default Header

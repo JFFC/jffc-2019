@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import * as AlternateContainer from '../components/alternatecontainer';
+import AlternateContainer from '../components/AlternateContainer';
 
 const SchedulePage = () => (
   <AlternateContainer>

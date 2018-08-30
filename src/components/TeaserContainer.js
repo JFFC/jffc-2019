@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import '../css/fonts.css'
 import '../css/main.css'
 
-const teasercontainer = ({ children }) => (
+const TeaserContainer = ({ children }) => (
     <StaticQuery
     query={graphql`
       query SiteTitleQuery2 {
@@ -31,4 +31,4 @@ const teasercontainer = ({ children }) => (
     />
 )
 
-export default teasercontainer
+export default TeaserContainer

@@ -1,5 +1,5 @@
 import React from 'react'
-import * as TeaserContainer from '../components/teasercontainer';
+import TeaserContainer from '../components/TeaserContainer';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 const TeaserPage = () => (

@@ -1,5 +1,6 @@
 import React from 'react'
-import * as AlternateContainer from '../components/alternatecontainer';
+import AlternateContainer from '../components/AlternateContainer';
+
 
 const NotFoundPage = () => (
   <AlternateContainer>
