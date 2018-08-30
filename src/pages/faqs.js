@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
+import AlternateContainer from '../components/AlternateContainer';
 
 const FaqsPage = () => (
-  <Layout>
+  <AlternateContainer>
     <h1>Frequently Asked Questions</h1>
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
-  </Layout>
+  </AlternateContainer>
 )
 
 export default FaqsPage
