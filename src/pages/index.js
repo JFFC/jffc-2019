@@ -14,10 +14,9 @@ const TeaserPage = () => (
           <p>January 26 - 27, 2019 / De La Salle University - Manila</p>
         </Col>
         <Col xs={12} md={7} style={{marginBottom: 150}}>
-          <div style={{margin: '0 auto'}}>
           <h2 style={{fontFamily: "Inovato", fontSize: 48}}>The premier student web design conference is coming soon.</h2>
-            </div>
-          <a href="http://www.google.com" style={{color: "#EFEFEF"}}>Registration opens September 1, 2018.</a>
+          <p>Registration opens September 1, 2018. </p>
+          <a href="https://www.facebook.com/JuniorFFCPh/" style={{color: "#EFEFEF"}}>Like our FB page for further announcements.</a>
         </Col>
       </Row>
     </Grid>
