@@ -8,7 +8,7 @@ const IndexPage = () => (
   <MainContainer>
     <Grid fluid>
       <Row>
-        <Col xs={12} md={12} style={{marginBottom: 230}}/>
+        <Col xs={12} md={12} />
         <Col xs={12} md={12}>
           <p style={{color: "#EFEFEF"}}>January 26 - 27, 2019</p>
         </Col>
