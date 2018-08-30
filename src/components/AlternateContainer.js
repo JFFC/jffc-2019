@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import Header from './Header'
+import Header from './header'
 import '../css/fonts.css'
 
 
