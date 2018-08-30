@@ -24,8 +24,6 @@ const MainContainer = ({ children }) => (
             <Header/>
             <div style={{
                 margin: '0 auto',
-                maxWidth: 960,
-                paddingTop: 264,
             }}>
                 {children}
             </div>
