@@ -14,7 +14,7 @@ const TeaserPage = () => (
         </Col>
         <Col xs={12} md={7} style={{marginBottom: 150}}>
           <h2 style={{fontFamily: "Inovato", fontSize: 48}}>The premier student web design conference is coming soon.</h2>
-          <p>Registration opens September 1, 2018. </p>
+          <p>Registration opens September 2018. </p>
           <a href="https://www.facebook.com/JuniorFFCPh/" style={{color: "#EFEFEF"}}>Like our FB page for further announcements.</a>
         </Col>
       </Row>
