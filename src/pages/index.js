@@ -12,7 +12,7 @@ const TeaserPage = () => (
           <img className="logo" src={logo} alt="Junior Form Function & Class 2019 Logo"/>
         </Col>
         <Col xs={12} md={12} style={{marginTop: 50, marginBottom: 50}}>
-          <p>January 26 - 27, 2019 / De La Salle University - Manila</p>
+          <p>January 26 - 27, 2019 / Venue TBA</p>
         </Col>
         <Col xs={12} md={7} style={{marginBottom: 150}}>
           <h2 style={{fontFamily: "Inovato", fontSize: 48}}>The premier student web design conference is coming soon.</h2>
