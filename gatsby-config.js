@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Junior Form Function & Class 2019',
+    siteUrl: 'https://jffc.asia',
+    description: 'The Premier Student Web Design Conference in Asia.'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
