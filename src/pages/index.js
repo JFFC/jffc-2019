@@ -17,7 +17,7 @@ const TeaserPage = () => (
         <Col xs={12} md={7} style={{marginBottom: 150}}>
           <h2 style={{fontFamily: "Inovato", fontSize: 48}}>The premier student web design conference is coming soon.</h2>
           <p>Blind Bird Registration is now open.</p>
-          <a href="https://www.facebook.com/JuniorFFCPh/" style={{color: "#EFEFEF"}}>Get your tickets on Eventbrite.</a> <br/>
+          <a href="https://juniorformfunctionclass2019.eventbrite.com" style={{color: "#EFEFEF"}}>Get your tickets on Eventbrite.</a> <br/>
           <a href="https://www.facebook.com/JuniorFFCPh/" style={{color: "#EFEFEF"}}>Like our FB page for further announcements.</a>
         </Col>
       </Row>
