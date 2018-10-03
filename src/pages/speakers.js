@@ -6,7 +6,7 @@ import AlternateContainer from '../components/AlternateContainer';
 const SpeakersPage = () => (
   <AlternateContainer>
     <h1>Speakers</h1>
-    <p>Welcome to page 2</p>
+    
   </AlternateContainer>
 )
 

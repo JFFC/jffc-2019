@@ -4,6 +4,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 
 
 import '../css/header.css'
+import logo from '../images/jffc-logo-only@1x.png'
 
 const Header = ({ siteTitle }) => (
   <header id="mainHeaderContainer">
@@ -16,7 +17,7 @@ const Header = ({ siteTitle }) => (
                   <p>=</p>
                 </Col>
                 <Col xs>
-                  <p>JFFC</p>
+                  <img className="logo" src={logo} alt="JFFC2019"/>
                 </Col>
                 <Col xs>
                   <p>Get Tickets</p>

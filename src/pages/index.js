@@ -3,6 +3,8 @@ import MainContainer from '../components/MainContainer';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 
+import mainlogo from '../images/jffc-logo-main@2x.png';
+
 
 const IndexPage = () => (
   <MainContainer>
@@ -23,7 +25,7 @@ const IndexPage = () => (
         </Col>
         <Col xs={12} md={5}>
           <Row center="md" bottom="md">
-          <p>logo</p>
+            <img className="mainlogo" src={mainlogo} />
           </Row>
         </Col>
         <Col xs={12} md={12}>
