@@ -1,0 +1,73 @@
+.about {
+    color: #EFEFEF;
+}
+
+.about a {
+    text-decoration: none;
+    color: #EFEFEF;
+}
+
+.aboutAnchor {
+    font-size: 24px;
+}
+
+.aboutHeader {
+    margin-top: 14px;
+}
+
+.aboutEntry {
+    margin-top: 76px;
+}
+
+
+.aboutHeader h2 {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Inovato";
+    color: #6234FB;
+    width: 600px;
+}
+
+.aboutBody {
+    margin-top: 16px;
+}
+
+.aboutBody p {
+    font-size: 24px;
+    width: 850px;
+    font-weight: normal;
+    letter-spacing: 0.73px;
+}
+
+.aboutHighlight {
+    color: #7D8AFF;
+}
+
+#twColor {
+    color: #F8C454;
+}
+
+#uxColor {
+    color: #00E6B9;
+}
+
+#pcColor {
+    color: #FF6E8A;
+}
+
+.aboutList p, ul {
+    margin: 0px;
+}
+
+.aboutList ul {
+    list-style-type: none;
+}
+
+.aboutList li {
+    margin-bottom: 0px;
+}
+
+.aboutList li::before {
+    content: "— ";
+    color: white;
+}

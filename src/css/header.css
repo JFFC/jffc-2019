@@ -4,7 +4,6 @@
     overflow: hidden;
     position: fixed;
     width: 100%;
-    max-width: 1170px;
 }
 
 #mainHeaderContainer .hamburger {
@@ -14,7 +13,7 @@
 #mainHeaderContainer > div {
     margin: 0 auto;
     max-height: 112px;
-    max-width: 960px;
+    max-width: 1170px;
     margin-top: 42px;
     margin-bottom: 42px;
 }
@@ -31,10 +30,6 @@
 
 #mainHeaderContainer > div ul li p {
     display: inline-block;
-}
-
-li:hover {
-    text-decoration: underline;
 }
 
 #mainHeaderContainer a {
@@ -69,7 +64,7 @@ li:hover {
 
 }
 
-.logo {
+#mainHeaderContainer .logo {
     width: 60%;
     height: 60%;
     margin-bottom: 0px;
