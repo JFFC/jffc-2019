@@ -25,6 +25,7 @@ const MainContainer = ({ children }) => (
             <div style={{
                 margin: '0 auto',
                 paddingTop: 230,
+                maxWidth: 1170,
             }}>
                 {children}
             </div>

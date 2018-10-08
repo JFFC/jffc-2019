@@ -1,9 +1,10 @@
 #mainHeaderContainer {
-    background: #4C4C4C;
+    background: #151623;
     color: #EFEFEF !important;
     overflow: hidden;
     position: fixed;
     width: 100%;
+    max-width: 1170px;
 }
 
 #mainHeaderContainer .hamburger {
@@ -26,7 +27,10 @@
 #mainHeaderContainer > div ul li {
     display: inline;
     padding-right: 25px;
-    padding-left: 25px;
+}
+
+#mainHeaderContainer > div ul li p {
+    display: inline-block;
 }
 
 li:hover {
@@ -40,6 +44,7 @@ li:hover {
 
 #mainHeaderContainer h1 {
     font-family: "Inovato";
+    font-weight: normal;
     word-wrap: "break-word";
 }
 
@@ -63,4 +68,15 @@ li:hover {
     }
 
 }
+
+.logo {
+    width: 60%;
+    height: 60%;
+    margin-bottom: 0px;
+}
+
+#mainHeaderContainer .NavLinks {
+    font-size: 20px;
+}
+
 

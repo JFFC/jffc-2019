@@ -4,12 +4,12 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 
 
 import '../css/header.css'
-import logo from '../images/jffc-logo-only@1x.png'
+import logo from '../images/jffc-logo-main@1x.png'
 
 const Header = ({ siteTitle }) => (
   <header id="mainHeaderContainer">
     <Grid fluid>
-      <Row center="md" middle="md">
+      <Row start="xs" middle="md">
         <Col xs={12}>
           <div className="hamburger">
             <Row center="xs" middle="xs">
@@ -25,15 +25,22 @@ const Header = ({ siteTitle }) => (
             </Row>
           </div>
         </Col>
-        <Col xs={12} md={12}>
-          <ul className="NavLinks">
-            <li><Link to="/"> Home</Link></li>
-            <li><Link to="/speakers/">Speakers</Link></li>
-            <li><Link to="/schedule/">Schedule</Link></li>
-            <li><Link to="/about/">About</Link></li>
-            <li><Link to="/faqs/">FAQs</Link></li>
-            <li><Link to="/sponsor/">Sponsors</Link></li>
-          </ul>
+        <Col xs={3} md={3}>
+          <Row start="xs">
+            <img className="logo" src={logo} alt="JFFC2019"/>
+          </Row>
+        </Col>
+        <Col xs={9} md={9}>
+          <Row start="xs">
+            <ul className="NavLinks">
+              <li><p> Home</p></li>
+              <li><p>Speakers</p></li>
+              <li><p>Schedule</p></li>
+              <li><p>About</p></li>
+              <li><p>FAQs</p></li>
+              <li><p>Sponsors</p></li>
+            </ul>
+          </Row>
         </Col>
       </Row>
     </Grid>
