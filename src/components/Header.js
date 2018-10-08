@@ -33,12 +33,11 @@ const Header = ({ siteTitle }) => (
         <Col xs={9} md={9}>
           <Row start="xs">
             <ul className="NavLinks">
-              <li><p>About</p></li>
-              <li><p>Speakers</p></li>
-              <li><p>Schedule</p></li>
-              <li><p>About</p></li>
-              <li><p>FAQs</p></li>
-              <li><p>Sponsors</p></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#speakers">Speakers</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#faqs">FAQs</a></li>
+              <li><a href="#sponsors">Sponsors</a></li>
             </ul>
           </Row>
         </Col>

@@ -43,7 +43,7 @@ const IndexPage = () => (
       <Grid fluid className="about">
         <Row>
           <Col xs={12} md={12} className="aboutAnchor">
-            <a href="#about">About - What is JFFC?</a>
+            <a id="about">About - What is JFFC?</a>
           </Col>
           <Col xs={12} md={12} className="aboutHeader">
             <h2>Gathering students with passion for the web</h2>
@@ -79,7 +79,7 @@ const IndexPage = () => (
       <Grid fluid className="speaker">
         <Row>
           <Col xs={12} md={12} className="speakerAnchor">
-            <a href="#speakers">Speakers</a>
+            <a id="speakers">Speakers</a>
           </Col>
           <Col xs={12} md={12} className="speakerHeader">
             <h2>2019's Web Enablers of the Youth</h2>
