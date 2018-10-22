@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
             </Row>
           </div>
         </Col>
-        <Col xs={3} md={3}>
+        <Col xs={2} md={2}>
           <Row start="xs">
             <img className="logo" src={logo} alt="JFFC2019"/>
           </Row>

@@ -4,6 +4,7 @@
     overflow: hidden;
     position: fixed;
     width: 100%;
+    height: 72px;
 }
 
 #mainHeaderContainer .hamburger {
@@ -12,10 +13,8 @@
 
 #mainHeaderContainer > div {
     margin: 0 auto;
-    max-height: 112px;
+    max-height: 72px;
     max-width: 1170px;
-    margin-top: 42px;
-    margin-bottom: 42px;
 }
 
 #mainHeaderContainer > div ul {
@@ -65,13 +64,13 @@
 }
 
 #mainHeaderContainer .logo {
-    width: 60%;
-    height: 60%;
-    margin-bottom: 0px;
+    height: 40px;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
 
 #mainHeaderContainer .NavLinks {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 

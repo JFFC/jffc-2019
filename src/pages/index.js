@@ -118,7 +118,17 @@ const IndexPage = () => (
           <Col xs={4} md={4} className="speakerCard">
             <p className="speakerName">Alexis Collado</p>
             <p className="speakerTalk-2">Product Design 101</p>
-            <p className="speakerSpiel">Currently with Kalibrr as a UX Designer, Alexis Collado’s feverish passion for design has led to the founding of User Experience Society, the first student UX organization in the Philippines. Alexis is also the host and producer of Roots, a podcast about the stories of Filipino designers.</p>
+            <p className="speakerSpiel">Alexis Collado is a digital product designer at Kalibrr, helping transform the way candidates find jobs and companies hire talent. His podcast, Roots (https://rootspodcast.design), tells the stories of great Filipino designers he’s met. He is a core member and volunteer of UX Philippines, where he helps organize meet-ups and conferences about user experience and design.</p>
+          </Col>
+          <Col xs={4} md={4} className="speakerCard">
+            <p className="speakerName">Samantha Rose Cruz</p>
+            <p className="speakerTalk-2">CSS/SVG Animations</p>
+            <p className="speakerSpiel">Samantha is a Product Designer and Front End Web Developer who has worked with startups and big companies locally and abroad. She currently works at Make Technology: a UX and Technology company by Ace Saatchi & Saatchi. She previously worked at Challonge: a tournament management app for sports and esports that serves millions of users around the world, and Proudcloud: a web engineering firm that builds technologies for startups and large enterprises. She also founded and manages ManilaCSS, aiming to promote CSS best practices, discover what's new, and gather professional and amateur developers to talk about anything under the CSS umbrella.</p>
+          </Col>
+          <Col xs={4} md={4} className="speakerCard">
+            <p className="speakerName">Mike Jaren Yap</p>
+            <p className="speakerTalk-2">Back to Basics: HTML and CSS Fundamentals</p>
+            <p className="speakerSpiel">Mike Jaren Yap is a senior taking up Bachelor of Science in Computer Science specializing in Software Technology at De La Salle University. He is the founder and current president of the User Experience Society - DLSU. During his stint as the Director for UX Education and Consultancy, he produced various projects for clients and conceptualized UX-related talks and workshops held at the university. He previously worked for Cambridge University Press as a Front-End Developer Intern and part of the Design Team. He has also facilitated talks and workshops that advocate for UX Education and inspire others to become Leaders of Design and Innovation.</p>
           </Col>
         </Row>
       </Grid>
