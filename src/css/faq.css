@@ -1,0 +1,42 @@
+.faq {
+    color: #EFEFEF;
+}
+
+.faq a {
+    text-decoration: none;
+    color: #EFEFEF;
+}
+
+.faqAnchor {
+    font-size: 24px;
+}
+
+.faqHeader {
+    margin-top: 14px;
+}
+
+.faqHeader h2 {
+    width: 601px;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Inovato";
+    color: #6234FB;
+}
+
+.faqSectionHeader h3 {
+    font-size: 24px;
+    font-family: "Inovato";
+}
+
+.faqList ul {
+    list-style-type: none;
+}
+
+.faqList li {
+    margin-bottom: 0px;
+}
+
+.faqList li::before {
+    content: "— ";
+    color: white;
+}

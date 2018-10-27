@@ -8,6 +8,15 @@ import mainlogo from '../images/jffc-logo-main@2x.png';
 import '../css/hero.css';
 import '../css/about.css';
 import '../css/speaker.css';
+import '../css/faq.css';
+
+import jiggy from '../images/speakers/plenary/jiggy.jpg';
+import drei from '../images/speakers/plenary/drei.jpg';
+import mark from '../images/speakers/plenary/mark.jpg';
+
+import alexis from '../images/speakers/workshop/alexis.jpg';
+import sam from '../images/speakers/workshop/sam.jpg';
+import mj from '../images/speakers/workshop/mj.jpg';
 
 const IndexPage = () => (
   <div>
@@ -91,18 +100,21 @@ const IndexPage = () => (
             <p id="speakerHeader-1">Plenary Speakers - Day 1</p>
           </Col>
         </Row>
-        <Row>
+        <Row id="plenary">
           <Col xs={4} md={4} className="speakerCard">
+            <div className="jiggy duotonespeaker"></div>
             <p className="speakerName">Jiggy Villanueva</p>
             <p className="speakerTalk-1">Crafting Compelling Experiences Through Branding</p>
-            <p className="speakerSpiel">Jiggy Villanueva is senior taking up Management Information Systems at ADMU. As a visual designer, Jiggy has worked with several student-run ventures and startups in telling their unique stories through branding and user experience design.</p>
+            <p className="speakerSpiel">Jiggy Villanueva is a senior taking up Management Information Systems at Ateneo de Manila University. As a visual designer, Jiggy has worked with several student-run ventures and startups in telling their unique stories through branding and user experience design.</p>
           </Col>
           <Col xs={4} md={4} className="speakerCard">
+            <div className="drei duotonespeaker"></div>
             <p className="speakerName">Drei Alquiros</p>
             <p className="speakerTalk-1">Why Giving Up My Dream Job Was the Best Decision I've Ever Made</p>
             <p className="speakerSpiel">With over 8 years experience in the Web Development industry, Drei Alquiros has worked for big and small companies in the Philippines. Today, Drei is a Remote WordPress Tech Support and teaches Web Development to Senior High School students.</p>
           </Col>
           <Col xs={4} md={4} className="speakerCard">
+            <div className="mark duotonespeaker"></div>            
             <p className="speakerName">Mark Lester Lacsamana</p>
             <p className="speakerTalk-1">The You in UX</p>
             <p className="speakerSpiel">Mark Lester Lacsamana is a designer for Kalibrr and previously for OLX Philippines - designing mobile experiences and solving problems on a day-to-day basis. Mark is also a speaker, is active with design communities as well as founding some, and helps out in advocacies on Human Rights and Public health.</p>
@@ -114,21 +126,95 @@ const IndexPage = () => (
             <p id="speakerHeader-2">Workshop Facilitators - Day 2</p>
           </Col>
         </Row>
-        <Row>
+        <Row id="workshop">
           <Col xs={4} md={4} className="speakerCard">
+            <div className="alexis duotoneworkshop"></div>
             <p className="speakerName">Alexis Collado</p>
             <p className="speakerTalk-2">Product Design 101</p>
             <p className="speakerSpiel">Alexis Collado is a digital product designer at Kalibrr, helping transform the way candidates find jobs and companies hire talent. His podcast, Roots (https://rootspodcast.design), tells the stories of great Filipino designers he’s met. He is a core member and volunteer of UX Philippines, where he helps organize meet-ups and conferences about user experience and design.</p>
           </Col>
           <Col xs={4} md={4} className="speakerCard">
+            <div className="sam duotoneworkshop"></div>
             <p className="speakerName">Samantha Rose Cruz</p>
             <p className="speakerTalk-2">CSS/SVG Animations</p>
-            <p className="speakerSpiel">Samantha is a Product Designer and Front End Web Developer who has worked with startups and big companies locally and abroad. She currently works at Make Technology: a UX and Technology company by Ace Saatchi & Saatchi. She previously worked at Challonge: a tournament management app for sports and esports that serves millions of users around the world, and Proudcloud: a web engineering firm that builds technologies for startups and large enterprises. She also founded and manages ManilaCSS, aiming to promote CSS best practices, discover what's new, and gather professional and amateur developers to talk about anything under the CSS umbrella.</p>
+            <p className="speakerSpiel">Sam is a Product Designer and Front End Web Developer working at Make Technology. Sam has worked for both startups and big companies in the past like Challonge and Proudcloud. Sam also founded ManilaCSS - a community to promote CSS best practices and gather developers to talk anything under the CSS umbrella.</p>
           </Col>
           <Col xs={4} md={4} className="speakerCard">
+            <div className="mj duotoneworkshop"></div>            
             <p className="speakerName">Mike Jaren Yap</p>
             <p className="speakerTalk-2">Back to Basics: HTML and CSS Fundamentals</p>
-            <p className="speakerSpiel">Mike Jaren Yap is a senior taking up Bachelor of Science in Computer Science specializing in Software Technology at De La Salle University. He is the founder and current president of the User Experience Society - DLSU. During his stint as the Director for UX Education and Consultancy, he produced various projects for clients and conceptualized UX-related talks and workshops held at the university. He previously worked for Cambridge University Press as a Front-End Developer Intern and part of the Design Team. He has also facilitated talks and workshops that advocate for UX Education and inspire others to become Leaders of Design and Innovation.</p>
+            <p className="speakerSpiel">Mike Jaren Yap is a senior taking up BS-MS Computer Science at De La Salle University. As the current president of (and a co-founder) User Experience Society - DLSU, MJ developed various projects and workshops inside campus. MJ aims to inspire others to become “Leaders of Design and Innovation” through talks.</p>
+          </Col>
+        </Row>
+      </Grid>
+    </ContentContainer>
+
+    <ContentContainer>
+      <Grid fluid className="faq">
+        <Row>
+          <Col xs={12} md={12} className="faqAnchor">
+            <a id="faq">FAQ</a>
+          </Col>
+          <Col xs={12} md={12} className="faqHeader">
+            <h2>What do you need to know about the event?</h2>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col xs={12} md={12} className="faqSectionHeader">
+            <h3>Is this event for students only?</h3>
+          </Col>
+          <Col xs={12} md={12} className="faqBody">
+            <p>YES. Junior Form Function & Class is only for students. For industry professionals, there is FFC organised by the Philippine Web Designers Organization. JFFC is organized by TomasinoWeb, User Experience Society - DLSU, and the Philippine Computing Organizations Alliance with support from the Philippine Web Designers Organization.</p>
+          </Col>
+          <Col xs={12} md={12} className="faqSectionHeader">
+            <h3>How can I pay for my tickets?</h3>
+          </Col>
+          <Col xs={12} md={12} className="faqBody">
+            <div className="faqList">
+              <span>There are several payment methods to get Junior Form Function & Class tickets:</span>
+              <ul>
+                <li>PayPal</li>  
+                <li>Credit Card</li>  
+                <li>PayMaya</li>
+                <li>GCash</li>
+              </ul>
+            </div>
+            <br/>
+            <p>You can also buy tickets from our Campus Ambassadors in the following schools and organizations:</p>
+            <div className="faqList">
+              <span>De La Salle University - Manila</span>
+              <ul>
+                <li>User Experience Society - DLSU</li>
+              </ul>
+            </div>
+
+            <div className="faqList">
+              <span>Ateneo de Manila University</span>
+              <ul>
+                <li>User Experience Society - ADMU</li>
+                <li>Developers' Society</li>
+              </ul>
+            </div>
+            
+            <div className="faqList">
+              <span>University of Santo Tomas</span>
+              <ul>
+                <li>UST Computer Science Society</li>
+                <li>Tomasino Web</li>
+              </ul>
+            </div>
+            
+            <div className="faqList">
+              <span>De La Salle Santiago Zobel</span>
+              <ul>
+                <li>Developers' Society</li>
+              </ul>
+            </div>
+            
+            <br/>
+            <p>Didn't find answers to your inquiry? Drop us a line at <strong>jffcasia@pwdo.org</strong></p>
+            
           </Col>
         </Row>
       </Grid>

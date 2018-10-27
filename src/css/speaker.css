@@ -66,3 +66,85 @@
     letter-spacing: 0.86px;
     width: 320px;
 }
+
+.sam {
+    background: url(../images/speakers/workshop/sam.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+.alexis {
+    background: url(../images/speakers/workshop/alexis.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+.mj {
+    background: url(../images/speakers/workshop/mj.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+.jiggy {
+    background: url(../images/speakers/plenary/jiggy.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+.mark {
+    background: url(../images/speakers/plenary/mark.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+.drei {
+    background: url(../images/speakers/plenary/drei.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+
+.duotoneworkshop::before {
+    background-color: #FF3A65;
+    content: '';
+    display: block;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    mix-blend-mode: multiply;
+    z-index: 1;
+  }
+  
+.duotoneworkshop::after {
+    background-color: #1A055C;
+    content: '';
+    display: block;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    mix-blend-mode: lighten;
+    z-index: 1;
+    
+}
+
+.duotonespeaker::before {
+    background-color: #00E6B9;
+    content: '';
+    display: block;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+
+.duotonespeaker::after {
+    background-color: #3E2789;
+    content: '';
+    display: block;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    mix-blend-mode: lighten;
+    z-index: 1;
+}
