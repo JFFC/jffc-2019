@@ -1,22 +1,22 @@
 import React from 'react'
 import MainContainer from '../components/MainContainer';
 import ContentContainer from '../components/ContentContainer';
+import FooterContainer from '../components/FooterContainer';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-
-import mainlogo from '../images/jffc-logo-main@2x.png';
 
 import '../css/hero.css';
 import '../css/about.css';
 import '../css/speaker.css';
 import '../css/faq.css';
+import '../css/sponsors.css';
+import '../css/subhero.css';
+import '../css/footer.css';
 
-import jiggy from '../images/speakers/plenary/jiggy.jpg';
-import drei from '../images/speakers/plenary/drei.jpg';
-import mark from '../images/speakers/plenary/mark.jpg';
-
-import alexis from '../images/speakers/workshop/alexis.jpg';
-import sam from '../images/speakers/workshop/sam.jpg';
-import mj from '../images/speakers/workshop/mj.jpg';
+import uxsoc from '../images/sponsors/uxsoc.png';
+import tomweb from '../images/sponsors/tomweb.png';
+import pwdo from '../images/sponsors/pwdo.png';
+import pcoa from '../images/sponsors/pcoa.png';
+import jffclogo from '../images/jffc-logo-main@1x.png';
 
 const IndexPage = () => (
   <div>
@@ -40,9 +40,11 @@ const IndexPage = () => (
         </Row>
         <Row className="mainHeroCTA">
           <Col xs={12} md={12}>
-            <button>
-              BUY TICKETS
-            </button>
+            <a href="http://juniorformfunctionclass2019.eventbrite.com">
+                <button type="button">
+                  BUY TICKETS
+                </button>
+              </a>
           </Col>
         </Row>
       </Grid>
@@ -102,19 +104,25 @@ const IndexPage = () => (
         </Row>
         <Row id="plenary">
           <Col xs={4} md={4} className="speakerCard">
-            <div className="jiggy duotonespeaker"></div>
+            <div className="photoContainer">
+              <div className="jiggy duotonespeaker"></div>
+            </div>
             <p className="speakerName">Jiggy Villanueva</p>
             <p className="speakerTalk-1">Crafting Compelling Experiences Through Branding</p>
             <p className="speakerSpiel">Jiggy Villanueva is a senior taking up Management Information Systems at Ateneo de Manila University. As a visual designer, Jiggy has worked with several student-run ventures and startups in telling their unique stories through branding and user experience design.</p>
           </Col>
           <Col xs={4} md={4} className="speakerCard">
-            <div className="drei duotonespeaker"></div>
+            <div className="photoContainer">
+              <div className="drei duotonespeaker"></div>
+            </div>
             <p className="speakerName">Drei Alquiros</p>
             <p className="speakerTalk-1">Why Giving Up My Dream Job Was the Best Decision I've Ever Made</p>
             <p className="speakerSpiel">With over 8 years experience in the Web Development industry, Drei Alquiros has worked for big and small companies in the Philippines. Today, Drei is a Remote WordPress Tech Support and teaches Web Development to Senior High School students.</p>
           </Col>
           <Col xs={4} md={4} className="speakerCard">
-            <div className="mark duotonespeaker"></div>            
+            <div className="photoContainer">
+              <div className="mark duotonespeaker"></div>            
+            </div>
             <p className="speakerName">Mark Lester Lacsamana</p>
             <p className="speakerTalk-1">The You in UX</p>
             <p className="speakerSpiel">Mark Lester Lacsamana is a designer for Kalibrr and previously for OLX Philippines - designing mobile experiences and solving problems on a day-to-day basis. Mark is also a speaker, is active with design communities as well as founding some, and helps out in advocacies on Human Rights and Public health.</p>
@@ -128,19 +136,25 @@ const IndexPage = () => (
         </Row>
         <Row id="workshop">
           <Col xs={4} md={4} className="speakerCard">
-            <div className="alexis duotoneworkshop"></div>
+            <div className="photoContainer">
+              <div className="alexis duotoneworkshop"></div>
+            </div>
             <p className="speakerName">Alexis Collado</p>
             <p className="speakerTalk-2">Product Design 101</p>
             <p className="speakerSpiel">Alexis Collado is a digital product designer at Kalibrr, helping transform the way candidates find jobs and companies hire talent. His podcast, Roots (https://rootspodcast.design), tells the stories of great Filipino designers he’s met. He is a core member and volunteer of UX Philippines, where he helps organize meet-ups and conferences about user experience and design.</p>
           </Col>
           <Col xs={4} md={4} className="speakerCard">
-            <div className="sam duotoneworkshop"></div>
+            <div className="photoContainer">
+              <div className="sam duotoneworkshop"></div>
+            </div>
             <p className="speakerName">Samantha Rose Cruz</p>
             <p className="speakerTalk-2">CSS/SVG Animations</p>
             <p className="speakerSpiel">Sam is a Product Designer and Front End Web Developer working at Make Technology. Sam has worked for both startups and big companies in the past like Challonge and Proudcloud. Sam also founded ManilaCSS - a community to promote CSS best practices and gather developers to talk anything under the CSS umbrella.</p>
           </Col>
           <Col xs={4} md={4} className="speakerCard">
-            <div className="mj duotoneworkshop"></div>            
+            <div className="photoContainer">
+              <div className="mj duotoneworkshop"></div>            
+            </div>
             <p className="speakerName">Mike Jaren Yap</p>
             <p className="speakerTalk-2">Back to Basics: HTML and CSS Fundamentals</p>
             <p className="speakerSpiel">Mike Jaren Yap is a senior taking up BS-MS Computer Science at De La Salle University. As the current president of (and a co-founder) User Experience Society - DLSU, MJ developed various projects and workshops inside campus. MJ aims to inspire others to become “Leaders of Design and Innovation” through talks.</p>
@@ -213,12 +227,90 @@ const IndexPage = () => (
             </div>
             
             <br/>
-            <p>Didn't find answers to your inquiry? Drop us a line at <strong>jffcasia@pwdo.org</strong></p>
+            <p>Didn't find answers to your inquiry? Drop us a line at <a href="mailto:jffcasia@pwdo.org"><span className="aboutHighlight">jffcasia@pwdo.org</span></a></p>
             
           </Col>
         </Row>
       </Grid>
     </ContentContainer>
+
+    <ContentContainer>
+      <Grid fluid className="sponsors">
+        <Row>
+          <Col xs={12} md={12} className="sponsorsAnchor">
+            <a id="sponsors">Sponsors</a>
+          </Col>
+          <Col xs={12} md={12} className="sponsorsHeader">
+            <h2>Junior Form Function & Class is brought to you by the following:</h2>
+          </Col>
+        </Row>
+        <Row around="md" className="copresentor">
+          <Col>
+            <img src={uxsoc} height={100}></img>
+          </Col>
+          <Col>
+            <img src={tomweb} height={100}></img>
+          </Col>
+          <Col>
+            <img src={pwdo} height={120}></img>
+          </Col>
+          <Col>
+            <img src={pcoa} height={100}></img>
+          </Col>
+        </Row>
+        <Row className="major">
+        
+        </Row>
+        <Row className="minor">
+        
+        </Row>
+        <Row className="media">
+        
+        </Row>
+        <Row>
+          <Col xs={12} md={12}>
+            <p>Interested in partnering with us? Browse our <a href="http://bit.ly/jffc-2019-sponsorship"><span className="aboutHighlight">partnership primer</span></a> or contact us at <a href="mailto:jffcasia@pwdo.org"><span className="aboutHighlight">jffcasia@pwdo.org</span></a></p>
+          </Col>
+        </Row>
+      </Grid>
+    </ContentContainer>
+
+    <ContentContainer>
+      <Grid fluid className="subHero">
+        <div className="subHeroSpacer">
+          <Row>
+            <Col xs={12} md={12} className="subHeroText">
+              <h1>
+                Prepared to be future-ready?
+              </h1>
+            </Col>
+          </Row>
+          <Row className="subHeroCTA">
+            <Col xs={12} md={12}>
+              <a href="http://juniorformfunctionclass2019.eventbrite.com">
+                <button type="button">
+                  BUY TICKETS
+                </button>
+              </a>
+            </Col>
+          </Row>
+        </div>
+      </Grid>
+    </ContentContainer>
+
+    <FooterContainer>
+      <Grid fluid className="footer">
+        <Row>
+          <Col md>
+            <img className="logo" src={jffclogo} />
+          </Col>
+          <Col md className="footerText">
+            <p>Junior Form Function & Class 2019 is brought to you by <span id="twColor">TomasinoWeb</span>, <span id="uxColor">User Experience Society - DLSU</span>, and <span id="pcColor">The Philippine Computing Organizations Alliance</span></p>
+          </Col>
+        </Row>
+      </Grid>
+    </FooterContainer>
+    
   </div>
 )
 

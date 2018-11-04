@@ -104,6 +104,10 @@
     width: 240px;
 }
 
+.photoContainer {
+    margin-bottom: 25px;
+}
+
 .duotoneworkshop::before {
     background-color: #FF3A65;
     content: '';
