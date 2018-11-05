@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Junior Form Function & Class 2019',
+    siteUrl: 'https://jffc.asia',
+    description: 'The Premier Student Web Design Conference in Asia.'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -13,7 +15,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/logo-illustration-only.png', // This path is relative to the root of the site.
       },
     },
     
