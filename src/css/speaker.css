@@ -1,0 +1,154 @@
+.speaker a {
+    text-decoration: none;
+    color: #EFEFEF;
+}
+
+
+.speakerAnchor {
+    font-size: 24px;
+}
+
+.speakerHeader {
+    margin-top: 14px;
+}
+
+.speakerHeader h2 {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Inovato";
+    color: #6234FB;
+}
+
+#speakerHeader-1 {
+    color: #00E6B9;
+    font-size: 24px;
+}
+
+#speakerHeader-2 {
+    color: #FF6E8A;
+    font-size: 24px;
+}
+
+.speakerCard {
+    width: 320px;
+}
+
+.speakerTalk-1 {
+    color: #00E6B9;
+    font-size: 18px;
+    letter-spacing: 0.86px;
+    width: 320px;
+    margin-bottom: 15px;
+    height: 44px;
+}
+
+.speakerTalk-2 {
+    color: #FF6E8A;
+    font-size: 18px;
+    letter-spacing: 0.86px;
+    width: 320px;
+    margin-bottom: 15px;
+    height: 44px;
+}
+
+
+.speakerName {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.86px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.speakerSpiel {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.86px;
+    width: 320px;
+}
+
+.sam {
+    background: url(../images/speakers/workshop/sam.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+.alexis {
+    background: url(../images/speakers/workshop/alexis.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+.mj {
+    background: url(../images/speakers/workshop/mj.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+.jiggy {
+    background: url(../images/speakers/plenary/jiggy.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+.mark {
+    background: url(../images/speakers/plenary/mark.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+.drei {
+    background: url(../images/speakers/plenary/drei.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+
+.photoContainer {
+    margin-bottom: 25px;
+}
+
+.duotoneworkshop::before {
+    background-color: #FF3A65;
+    content: '';
+    display: block;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    mix-blend-mode: multiply;
+    z-index: 1;
+  }
+  
+.duotoneworkshop::after {
+    background-color: #1A055C;
+    content: '';
+    display: block;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    mix-blend-mode: lighten;
+    z-index: 1;
+    
+}
+
+.duotonespeaker::before {
+    background-color: #00E6B9;
+    content: '';
+    display: block;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+
+.duotonespeaker::after {
+    background-color: #3E2789;
+    content: '';
+    display: block;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    mix-blend-mode: lighten;
+    z-index: 1;
+}

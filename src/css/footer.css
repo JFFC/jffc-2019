@@ -1,0 +1,14 @@
+
+.footer .logo {
+    height: 60px;
+}
+
+.footer .footerText {
+    color: white;
+    font-size: 18px;
+    text-align: right;
+}
+
+.footer .footerText p {
+    width: 681px;
+}

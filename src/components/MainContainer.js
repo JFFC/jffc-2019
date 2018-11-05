@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './Header'
 import '../css/fonts.css'
+import '../css/main.css'
 
 const MainContainer = ({ children }) => (
     <StaticQuery
@@ -24,8 +25,8 @@ const MainContainer = ({ children }) => (
             <Header/>
             <div style={{
                 margin: '0 auto',
-                maxWidth: 960,
-                paddingTop: 264,
+                paddingTop: 230,
+                maxWidth: 1170,
             }}>
                 {children}
             </div>

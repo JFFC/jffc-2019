@@ -1,21 +1,49 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { Grid, Row, Col } from 'react-flexbox-grid';
+
 
 import '../css/header.css'
+import logo from '../images/jffc-logo-main@1x.png'
 
 const Header = ({ siteTitle }) => (
-  <div id="mainHeaderContainer">
-    <div >
-      <ul>
-        <li><Link to="/"> Home</Link></li>
-        <li><Link to="/faqs/">FAQs</Link></li>
-        <li><Link to="/about/">About</Link></li>
-        <li><Link to="/speakers/">Speakers</Link></li>
-        <li><Link to="/schedule/">Schedule</Link></li>
-        <li><Link to="/sponsor/">Sponsors</Link></li>
-      </ul>
-    </div>
-  </div>
+  <header id="mainHeaderContainer">
+    <Grid fluid>
+      <Row start="xs" middle="md">
+        <Col xs={12}>
+          <div className="hamburger">
+            <Row center="xs" middle="xs">
+                <Col xs>
+                  <p>=</p>
+                </Col>
+                <Col xs>
+                  <img className="logo" src={logo} alt="JFFC2019"/>
+                </Col>
+                <Col xs>
+                  <p>Get Tickets</p>
+                </Col>
+            </Row>
+          </div>
+        </Col>
+        <Col xs={2} md={2}>
+          <Row start="xs">
+            <img className="logo" src={logo} alt="JFFC2019"/>
+          </Row>
+        </Col>
+        <Col xs={9} md={9}>
+          <Row start="xs">
+            <ul className="NavLinks">
+              <li><a href="#about">About</a></li>
+              <li><a href="#speakers">Speakers</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#faqs">FAQs</a></li>
+              <li><a href="#sponsors">Sponsors</a></li>
+            </ul>
+          </Row>
+        </Col>
+      </Row>
+    </Grid>
+  </header>
 )
 
 export default Header

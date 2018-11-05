@@ -9,8 +9,7 @@ const AlternateContainer = ({ children }) => (
         <Header/>
         <div style={{
             margin: '0 auto',
-            maxWidth: 960,
-            paddingTop: 97,
+            paddingTop: 230,
         }}>
             {children}
         </div>

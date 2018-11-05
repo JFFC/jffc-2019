@@ -5,14 +5,12 @@
 
 @font-face {
     font-family: 'Inovato';
-    font-weight: normal;
     font-style: normal;
     src: local('Inovato'), url(../typefaces/inovato/Inovato-Regular.otf) format('opentype');
 }
 
 @font-face {
     font-family: 'Inovato';
-    font-weight: bold;
     font-style: normal;
     src: local('Inovato'), url(../typefaces/inovato/Inovato-Bold.otf) format('opentype');
 }

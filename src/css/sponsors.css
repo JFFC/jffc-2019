@@ -1,0 +1,24 @@
+.sponsors {
+    color: #EFEFEF;
+}
+
+.sponsors a {
+    text-decoration: none;
+    color: #EFEFEF;
+}
+
+.sponsorsAnchor {
+    font-size: 24px;
+}
+
+.sponsorsHeader {
+    margin-top: 14px;
+}
+
+.sponsorsHeader h2 {
+    width: 601px;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Inovato";
+    color: #6234FB;
+}
