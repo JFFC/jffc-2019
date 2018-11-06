@@ -16,7 +16,7 @@ import uxsoc from '../images/sponsors/uxsoc.png';
 import tomweb from '../images/sponsors/tomweb.png';
 import pwdo from '../images/sponsors/pwdo.png';
 import pcoa from '../images/sponsors/pcoa.png';
-import jffclogo from '../images/jffc-logo-main@1x.png';
+import jffclogo from '../images/logos/jffcmain.png';
 
 const IndexPage = () => (
   <div>
@@ -54,7 +54,7 @@ const IndexPage = () => (
       <Grid fluid className="about">
         <Row>
           <Col xs={12} md={12} className="aboutAnchor">
-            <a id="about">About - What is JFFC?</a>
+            <a id="about-2" href="#about-2">About - What is JFFC?</a>
           </Col>
           <Row>
             <Col xs={12} md={7} className="aboutHeader">
@@ -68,7 +68,7 @@ const IndexPage = () => (
         </Row>
         <Row className="aboutEntry">
           <Col xs={12} md={12} className="aboutAnchor">
-            <a>About - What is JFFC 2019?</a>
+            <a id="about-3" href="#about-3">About - What is JFFC 2019?</a>
           </Col>
           <Row>
             <Col xs={12} md={7} className="aboutHeader">
@@ -95,7 +95,7 @@ const IndexPage = () => (
       <Grid fluid className="speaker">
         <Row>
           <Col xs={12} md={12} className="speakerAnchor">
-            <a id="speakers">Speakers</a>
+            <a id="speakers" href="#speakers">Speakers</a>
           </Col>
           <Col xs={12} md={12} className="speakerHeader">
             <h2>2019's Web Enablers of the Youth</h2>
@@ -104,10 +104,10 @@ const IndexPage = () => (
 
         <Row>
           <Col xs={9} md={12}>
-            <p id="speakerHeader-1">Plenary Speakers - Day 1</p>
+            <p id="speakerHeader-1" href="#speakerHeader-1">Plenary Speakers - Day 1</p>
           </Col>
         </Row>
-        <Row id="plenary" start="md">
+        <Row id="plenary" href="#plenary" start="md">
           <Col xs md className="speakerCard">
             <div className="photoContainer">
               <div className="jiggy duotonespeaker"></div>
@@ -136,10 +136,10 @@ const IndexPage = () => (
 
         <Row>
           <Col xs={9} md={12}>
-            <p id="speakerHeader-2">Workshop Facilitators - Day 2</p>
+            <p id="speakerHeader-2" href="#speakerHeader-2">Workshop Facilitators - Day 2</p>
           </Col>
         </Row>
-        <Row id="workshop">
+        <Row id="workshop" href="#workshop">
           <Col xs md className="speakerCard">
             <div className="photoContainer">
               <div className="alexis duotoneworkshop"></div>
@@ -172,7 +172,7 @@ const IndexPage = () => (
       <Grid fluid className="faq">
         <Row>
           <Col xs={12} md={12} className="faqAnchor">
-            <a id="faq">FAQ</a>
+            <a id="faq" href="#faq">FAQ</a>
           </Col>
           <Row>
             <Col xs={12} md={7} className="faqHeader">
@@ -246,7 +246,7 @@ const IndexPage = () => (
       <Grid fluid className="sponsors">
         <Row>
           <Col xs={12} md={12} className="sponsorsAnchor">
-            <a id="sponsors">Sponsors</a>
+            <a id="sponsors" href="#sponsors">Sponsors</a>
           </Col>
           <Col xs={12} md={12} className="sponsorsHeader">
             <h2>Junior Form Function & Class is brought to you by the following:</h2>
@@ -254,16 +254,16 @@ const IndexPage = () => (
         </Row>
         <Row around="md" className="copresentor">
           <Col>
-            <img src={uxsoc} height={100}></img>
+            <img src={uxsoc} height={100} alt="UX Society DLSU"></img>
           </Col>
           <Col>
-            <img src={tomweb} height={100}></img>
+            <img src={tomweb} height={100} alt="TomasinoWeb"></img>
           </Col>
           <Col>
-            <img src={pwdo} height={120}></img>
+            <img src={pwdo} height={120} alt="Philippine Web Designers Organization"></img>
           </Col>
           <Col>
-            <img src={pcoa} height={100}></img>
+            <img src={pcoa} height={100} alt="Philippine Computing Organizations Alliance"></img>
           </Col>
         </Row>
         <Row className="major">
@@ -310,7 +310,7 @@ const IndexPage = () => (
       <Grid fluid className="footer">
         <Row center="xs" middle="xs" start="md">
           <Col xs={4} md>
-            <img className="logo" src={jffclogo} />
+            <img className="logo" src={jffclogo} alt="Junior Form Function & Class" />
           </Col>
           <Col xs={8} md className="footerText">
             <p>Junior Form Function & Class 2019 is brought to you by <span id="twColor">TomasinoWeb</span>, <span id="uxColor">User Experience Society - DLSU</span>, and <span id="pcColor">The Philippine Computing Organizations Alliance</span></p>

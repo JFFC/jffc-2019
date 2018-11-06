@@ -56,6 +56,10 @@
     margin: 0px;
 }
 
+.aboutList span {
+    font-size: 18px;
+}
+
 .aboutList ul {
     list-style-type: none;
 }

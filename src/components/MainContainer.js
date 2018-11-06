@@ -1,12 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { StaticQuery, graphql, withPrefix } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './Header'
 import '../css/fonts.css'
 import '../css/main.css'
-
-import logo from '../images/jffc-logo-main@1x.png';
 
 
 
@@ -17,6 +15,7 @@ const MainContainer = ({ slug, children }) => (
         site {
           siteMetadata {
             title
+            siteUrl
           }
         }
       }
@@ -34,7 +33,7 @@ const MainContainer = ({ slug, children }) => (
                 <meta property="og:title" content="Junior Form Function & Class 2019"/>
                 <meta property="og:url" content="https://jffc.asia"/>
                 <meta property="og:description" content="Junior Form Function & Class is the premiere student web design conference in Asia."/>
-                <meta property="og:image" content={`${data.site.siteMetadata.siteUrl}${slug}jffc-logo-main@1x.png`}/>
+                <meta property="og:image" content={`${data.site.siteMetadata.siteUrl}/static/jffcmain.png`}/>
                 <meta property="og:image:width" content="300"/>
                 <meta property="og:image:height" content="300"/>
 
