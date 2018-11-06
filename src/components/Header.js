@@ -9,28 +9,14 @@ import logo from '../images/jffc-logo-main@1x.png'
 const Header = ({ siteTitle }) => (
   <header id="mainHeaderContainer">
     <Grid fluid>
-      <Row start="xs" middle="md">
-        <Col xs={12}>
-          <div className="hamburger">
-            <Row center="xs" middle="xs">
-                <Col xs>
-                  <p>=</p>
-                </Col>
-                <Col xs>
-                  <img className="logo" src={logo} alt="JFFC2019"/>
-                </Col>
-                <Col xs>
-                  <p>Get Tickets</p>
-                </Col>
-            </Row>
-          </div>
-        </Col>
-        <Col xs={2} md={2}>
+      <Row start="xs" middle="xs">
+     
+        <Col xs={4} md={2}>
           <Row start="xs">
             <img className="logo" src={logo} alt="JFFC2019"/>
           </Row>
         </Col>
-        <Col xs={9} md={9}>
+        <Col xs={8} md={9}>
           <Row start="xs">
             <ul className="NavLinks">
               <li><a href="#about">About</a></li>

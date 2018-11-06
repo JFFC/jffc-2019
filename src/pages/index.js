@@ -103,7 +103,7 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row id="plenary">
-          <Col xs={4} md={4} className="speakerCard">
+          <Col xs={12} md={4} className="speakerCard">
             <div className="photoContainer">
               <div className="jiggy duotonespeaker"></div>
             </div>
@@ -111,7 +111,7 @@ const IndexPage = () => (
             <p className="speakerTalk-1">Crafting Compelling Experiences Through Branding</p>
             <p className="speakerSpiel">Jiggy Villanueva is a senior taking up Management Information Systems at Ateneo de Manila University. As a visual designer, Jiggy has worked with several student-run ventures and startups in telling their unique stories through branding and user experience design.</p>
           </Col>
-          <Col xs={4} md={4} className="speakerCard">
+          <Col xs={12} md={4} className="speakerCard">
             <div className="photoContainer">
               <div className="drei duotonespeaker"></div>
             </div>
@@ -119,7 +119,7 @@ const IndexPage = () => (
             <p className="speakerTalk-1">Why Giving Up My Dream Job Was the Best Decision I've Ever Made</p>
             <p className="speakerSpiel">With over 8 years experience in the Web Development industry, Drei Alquiros has worked for big and small companies in the Philippines. Today, Drei is a Remote WordPress Tech Support and teaches Web Development to Senior High School students.</p>
           </Col>
-          <Col xs={4} md={4} className="speakerCard">
+          <Col xs={12} md={4} className="speakerCard">
             <div className="photoContainer">
               <div className="mark duotonespeaker"></div>            
             </div>
@@ -135,7 +135,7 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row id="workshop">
-          <Col xs={4} md={4} className="speakerCard">
+          <Col xs={12} md={4} className="speakerCard">
             <div className="photoContainer">
               <div className="alexis duotoneworkshop"></div>
             </div>
@@ -143,7 +143,7 @@ const IndexPage = () => (
             <p className="speakerTalk-2">Product Design 101</p>
             <p className="speakerSpiel">Alexis Collado is a digital product designer at Kalibrr, helping transform the way candidates find jobs and companies hire talent. His podcast, Roots (https://rootspodcast.design), tells the stories of great Filipino designers he’s met. He is a core member and volunteer of UX Philippines, where he helps organize meet-ups and conferences about user experience and design.</p>
           </Col>
-          <Col xs={4} md={4} className="speakerCard">
+          <Col xs={12} md={4} className="speakerCard">
             <div className="photoContainer">
               <div className="sam duotoneworkshop"></div>
             </div>
@@ -151,7 +151,7 @@ const IndexPage = () => (
             <p className="speakerTalk-2">CSS/SVG Animations</p>
             <p className="speakerSpiel">Sam is a Product Designer and Front End Web Developer working at Make Technology. Sam has worked for both startups and big companies in the past like Challonge and Proudcloud. Sam also founded ManilaCSS - a community to promote CSS best practices and gather developers to talk anything under the CSS umbrella.</p>
           </Col>
-          <Col xs={4} md={4} className="speakerCard">
+          <Col xs={12} md={4} className="speakerCard">
             <div className="photoContainer">
               <div className="mj duotoneworkshop"></div>            
             </div>
@@ -300,11 +300,11 @@ const IndexPage = () => (
 
     <FooterContainer>
       <Grid fluid className="footer">
-        <Row>
-          <Col md>
+        <Row center="xs" middle="xs" start="md">
+          <Col xs={4} md>
             <img className="logo" src={jffclogo} />
           </Col>
-          <Col md className="footerText">
+          <Col xs={8} md className="footerText">
             <p>Junior Form Function & Class 2019 is brought to you by <span id="twColor">TomasinoWeb</span>, <span id="uxColor">User Experience Society - DLSU</span>, and <span id="pcColor">The Philippine Computing Organizations Alliance</span></p>
           </Col>
         </Row>

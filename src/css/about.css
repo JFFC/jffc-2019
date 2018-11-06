@@ -25,7 +25,6 @@
     font-weight: bold;
     font-family: "Inovato";
     color: #6234FB;
-    width: 600px;
 }
 
 .aboutBody {
@@ -34,7 +33,6 @@
 
 .aboutBody p {
     font-size: 24px;
-    width: 850px;
     font-weight: normal;
     letter-spacing: 0.73px;
 }
