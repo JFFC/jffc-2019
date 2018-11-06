@@ -23,7 +23,7 @@ const IndexPage = () => (
     <MainContainer>
       <Grid fluid className="mainHero">
         <Row>
-          <Col xs={12} md={12} className="mainHeroText">
+          <Col xs={12} md={6} className="mainHeroText">
             <h1>
               Join the premier student web design conference in Asia.
             </h1>
@@ -56,9 +56,11 @@ const IndexPage = () => (
           <Col xs={12} md={12} className="aboutAnchor">
             <a id="about">About - What is JFFC?</a>
           </Col>
-          <Col xs={12} md={12} className="aboutHeader">
-            <h2>Gathering students with passion for the web</h2>
-          </Col>
+          <Row>
+            <Col xs={12} md={7} className="aboutHeader">
+              <h2>Gathering students with passion for the web</h2>
+            </Col>
+          </Row>
           <Col xs={12} md={12} className="aboutBody">
             <p>Junior Form Function & Class (JFFC) is an annual 2-day event and is Asia’s premiere student web design conference providing opportunities and learning experiences which help students develop their design skills further.</p>
             <p> JFFC derives from <span className="aboutHighlight">Form Function & Class</span> (FFC), an annual event by the <span className="aboutHighlight">Philippine Web Designers Organization</span> (PWDO), with the goal of uplifting the state of web design in the country.</p>
@@ -68,9 +70,12 @@ const IndexPage = () => (
           <Col xs={12} md={12} className="aboutAnchor">
             <a>About - What is JFFC 2019?</a>
           </Col>
-          <Col xs={12} md={12} className="aboutHeader">
-            <h2>Enabling Students to be future-ready with the Web</h2>
-          </Col>
+          <Row>
+            <Col xs={12} md={7} className="aboutHeader">
+              <h2>Enabling Students to be future-ready with the Web</h2>
+            </Col>
+          </Row>
+          
           <Col xs={12} md={12} className="aboutBody">
             <p>An event to unite the youth and prepare them of what’s ahead. Junior Form Function and Class, this 2019, envisions students to be “Future-forward” - enabling them to be the future leaders of the Web.</p>
             <div className="aboutList">
@@ -98,12 +103,12 @@ const IndexPage = () => (
         </Row>
 
         <Row>
-          <Col xs={12} md={12}>
+          <Col xs={9} md={12}>
             <p id="speakerHeader-1">Plenary Speakers - Day 1</p>
           </Col>
         </Row>
-        <Row id="plenary">
-          <Col xs={12} md={4} className="speakerCard">
+        <Row id="plenary" start="md">
+          <Col xs md className="speakerCard">
             <div className="photoContainer">
               <div className="jiggy duotonespeaker"></div>
             </div>
@@ -111,7 +116,7 @@ const IndexPage = () => (
             <p className="speakerTalk-1">Crafting Compelling Experiences Through Branding</p>
             <p className="speakerSpiel">Jiggy Villanueva is a senior taking up Management Information Systems at Ateneo de Manila University. As a visual designer, Jiggy has worked with several student-run ventures and startups in telling their unique stories through branding and user experience design.</p>
           </Col>
-          <Col xs={12} md={4} className="speakerCard">
+          <Col xs md className="speakerCard">
             <div className="photoContainer">
               <div className="drei duotonespeaker"></div>
             </div>
@@ -119,7 +124,7 @@ const IndexPage = () => (
             <p className="speakerTalk-1">Why Giving Up My Dream Job Was the Best Decision I've Ever Made</p>
             <p className="speakerSpiel">With over 8 years experience in the Web Development industry, Drei Alquiros has worked for big and small companies in the Philippines. Today, Drei is a Remote WordPress Tech Support and teaches Web Development to Senior High School students.</p>
           </Col>
-          <Col xs={12} md={4} className="speakerCard">
+          <Col xs md className="speakerCard">
             <div className="photoContainer">
               <div className="mark duotonespeaker"></div>            
             </div>
@@ -130,12 +135,12 @@ const IndexPage = () => (
         </Row>
 
         <Row>
-          <Col xs={12} md={12}>
+          <Col xs={9} md={12}>
             <p id="speakerHeader-2">Workshop Facilitators - Day 2</p>
           </Col>
         </Row>
         <Row id="workshop">
-          <Col xs={12} md={4} className="speakerCard">
+          <Col xs md className="speakerCard">
             <div className="photoContainer">
               <div className="alexis duotoneworkshop"></div>
             </div>
@@ -143,7 +148,7 @@ const IndexPage = () => (
             <p className="speakerTalk-2">Product Design 101</p>
             <p className="speakerSpiel">Alexis Collado is a digital product designer at Kalibrr, helping transform the way candidates find jobs and companies hire talent. His podcast, Roots (https://rootspodcast.design), tells the stories of great Filipino designers he’s met. He is a core member and volunteer of UX Philippines, where he helps organize meet-ups and conferences about user experience and design.</p>
           </Col>
-          <Col xs={12} md={4} className="speakerCard">
+          <Col xs md className="speakerCard">
             <div className="photoContainer">
               <div className="sam duotoneworkshop"></div>
             </div>
@@ -151,7 +156,7 @@ const IndexPage = () => (
             <p className="speakerTalk-2">CSS/SVG Animations</p>
             <p className="speakerSpiel">Sam is a Product Designer and Front End Web Developer working at Make Technology. Sam has worked for both startups and big companies in the past like Challonge and Proudcloud. Sam also founded ManilaCSS - a community to promote CSS best practices and gather developers to talk anything under the CSS umbrella.</p>
           </Col>
-          <Col xs={12} md={4} className="speakerCard">
+          <Col xs md className="speakerCard">
             <div className="photoContainer">
               <div className="mj duotoneworkshop"></div>            
             </div>
@@ -169,9 +174,12 @@ const IndexPage = () => (
           <Col xs={12} md={12} className="faqAnchor">
             <a id="faq">FAQ</a>
           </Col>
-          <Col xs={12} md={12} className="faqHeader">
-            <h2>What do you need to know about the event?</h2>
-          </Col>
+          <Row>
+            <Col xs={12} md={7} className="faqHeader">
+              <h2>What do you need to know about the event?</h2>
+            </Col>
+          </Row>
+          
         </Row>
 
         <Row>

@@ -19,7 +19,6 @@
     margin-top: 76px;
 }
 
-
 .aboutHeader h2 {
     font-size: 42px;
     font-weight: bold;
@@ -32,7 +31,7 @@
 }
 
 .aboutBody p {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: normal;
     letter-spacing: 0.73px;
 }

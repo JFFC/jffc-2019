@@ -7,6 +7,10 @@
     color: #EFEFEF;
 }
 
+.sponsors p {
+    font-size: 18px;
+}
+
 .sponsorsAnchor {
     font-size: 24px;
 }

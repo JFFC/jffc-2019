@@ -7,6 +7,14 @@
     color: #EFEFEF;
 }
 
+.faq p {
+    font-size: 18px;
+}
+
+.faq .faqList {
+    font-size: 18px;
+}
+
 .faqAnchor {
     font-size: 24px;
 }

@@ -30,14 +30,13 @@
 }
 
 .speakerCard {
-    width: 320px;
+
 }
 
 .speakerTalk-1 {
     color: #00E6B9;
     font-size: 18px;
     letter-spacing: 0.86px;
-    width: 320px;
     margin-bottom: 15px;
     height: 44px;
 }
@@ -46,7 +45,7 @@
     color: #FF6E8A;
     font-size: 18px;
     letter-spacing: 0.86px;
-    width: 320px;
+
     margin-bottom: 15px;
     height: 44px;
 }
@@ -64,7 +63,6 @@
     color: white;
     font-size: 18px;
     letter-spacing: 0.86px;
-    width: 320px;
 }
 
 .sam {
