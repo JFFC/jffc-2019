@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/img`,
   siteMetadata: {
     title: 'Junior Form Function & Class 2019',
     siteUrl: 'https://jffc.asia',
@@ -18,7 +19,13 @@ module.exports = {
         icon: 'src/images/logos/jffcillustration.png', // This path is relative to the root of the site.
       },
     },
-    
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images/logos`,
+        name: 'images',
+      },
+    },
     {
       resolve: `gatsby-plugin-typography`,
       options: {

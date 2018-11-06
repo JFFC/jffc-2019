@@ -10,6 +10,7 @@
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-sass": "next",
     "gatsby-plugin-typography": "^1.7.19",
+    "gatsby-source-filesystem": "^2.0.7",
     "node-sass": "^4.9.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",

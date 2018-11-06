@@ -6,6 +6,7 @@ import Header from './Header'
 import '../css/fonts.css'
 import '../css/main.css'
 
+import og from '../images/logos/og.png';
 
 
 const MainContainer = ({ slug, children }) => (
@@ -17,6 +18,9 @@ const MainContainer = ({ slug, children }) => (
             title
             siteUrl
           }
+        }
+        og: file(relativePath: {eq: "og.png"}) {
+            absolutePath
         }
       }
     `}
@@ -33,7 +37,7 @@ const MainContainer = ({ slug, children }) => (
                 <meta property="og:title" content="Junior Form Function & Class 2019"/>
                 <meta property="og:url" content="https://jffc.asia"/>
                 <meta property="og:description" content="Junior Form Function & Class is the premiere student web design conference in Asia."/>
-                <meta property="og:image" content={`${data.site.siteMetadata.siteUrl}/static/jffcmain.png`}/>
+                <meta property="og:image" content={`${data.site.siteMetadata.siteUrl}${data.og.absolutePath}`}/>
                 <meta property="og:image:width" content="300"/>
                 <meta property="og:image:height" content="300"/>
 
