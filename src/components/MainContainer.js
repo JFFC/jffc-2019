@@ -6,7 +6,7 @@ import Header from './Header'
 import '../css/fonts.css'
 import '../css/main.css'
 
-import og from '../images/logos/og.png';
+import og2 from '../images/logos/og2.png';
 
 
 const MainContainer = ({ slug, children }) => (
