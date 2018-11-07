@@ -21,8 +21,8 @@ const Header = ({ siteTitle }) => (
             <ul className="NavLinks">
               <li><a href="#about">About</a></li>
               <li><a href="#speakers">Speakers</a></li>
-              <li><a href="#schedule">Schedule</a></li>
-              <li><a href="#faqs">FAQs</a></li>
+              
+              <li><a href="#faq">FAQs</a></li>
               <li><a href="#sponsors">Sponsors</a></li>
             </ul>
           </Row>

@@ -54,7 +54,7 @@ const IndexPage = () => (
       <Grid fluid className="about">
         <Row>
           <Col xs={12} md={12} className="aboutAnchor">
-            <a id="about-2" href="#about-2">About - What is JFFC?</a>
+            <a id="about" href="#about">About - What is JFFC?</a>
           </Col>
           <Row>
             <Col xs={12} md={7} className="aboutHeader">
@@ -68,7 +68,7 @@ const IndexPage = () => (
         </Row>
         <Row className="aboutEntry">
           <Col xs={12} md={12} className="aboutAnchor">
-            <a id="about-3" href="#about-3">About - What is JFFC 2019?</a>
+            <a id="about-2" href="#about-2">About - What is JFFC 2019?</a>
           </Col>
           <Row>
             <Col xs={12} md={7} className="aboutHeader">

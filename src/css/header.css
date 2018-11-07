@@ -25,7 +25,7 @@
 
 #mainHeaderContainer > div ul li {
     display: inline;
-    padding-right: 25px;
+    margin-right: 25px;
 }
 
 #mainHeaderContainer > div ul li p {
@@ -35,6 +35,10 @@
 #mainHeaderContainer a {
     text-decoration: none;
     color: #EFEFEF;
+}
+
+#mainHeaderContainer > div ul li a:hover {
+    text-decoration: underline;
 }
 
 #mainHeaderContainer h1 {
