@@ -4,8 +4,11 @@
     overflow: hidden;
     position: fixed;
     width: 100%;
-    height: 72px;
     z-index: 2;
+}
+
+#mainHeaderContainer .menu {
+    height: 72px;
 }
 
 #mainHeaderContainer .hamburger {
@@ -14,7 +17,6 @@
 
 #mainHeaderContainer > div {
     margin: 0 auto;
-    max-height: 72px;
     max-width: 1170px;
 }
 
@@ -54,8 +56,50 @@
     margin-top: 16px;
 }
 
+#mainHeaderContainer .logo2 {
+    display: none;
+}
+
 #mainHeaderContainer .NavLinks {
     font-size: 14px;
+}
+
+#mainHeaderContainer .menuButton {
+    color: white;
+    height: 25px;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #mainHeaderContainer > div ul li {
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #mainHeaderContainer .menu {
+        height: 40vh;
+    }
+
+    #mainHeaderContainer {
+        background: #1e1f31;
+    }
+
+    #mainHeaderContainer .logo {
+        display:none;
+    }
+
+    #mainHeaderContainer .logo2 {
+        display: block;
+        height: 70px;
+        margin-top: 16px;
+    }
+
 }
 
 
