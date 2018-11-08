@@ -71,10 +71,14 @@
     margin-top: 25px;
     margin-bottom: 25px;
     float: left;
+    display: none;
 }
 
 
 @media only screen and (max-width: 500px) {
+    #mainHeaderContainer .menuButton {
+        display: block;
+    }
     #mainHeaderContainer > div ul li {
         display: block;
         margin-bottom: 20px;
