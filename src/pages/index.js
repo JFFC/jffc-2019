@@ -108,15 +108,15 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row id="plenary" href="#plenary" start="md">
-          <Col xs md className="speakerCard">
+          <Col xs md={4} className="speakerCard">
             <div className="photoContainer">
               <div className="jiggy duotonespeaker"></div>
             </div>
             <p className="speakerName">Jiggy Villanueva</p>
-            <p className="speakerTalk-1">Crafting Compelling Experiences Through Branding</p>
+            <p className="speakerTalk-1">Brand You: The Importance of Designing Your Own Identity</p>
             <p className="speakerSpiel">Jiggy Villanueva is a senior taking up Management Information Systems at Ateneo de Manila University. As a visual designer, Jiggy has worked with several student-run ventures and startups in telling their unique stories through branding and user experience design.</p>
           </Col>
-          <Col xs md className="speakerCard">
+          <Col xs md={4} className="speakerCard">
             <div className="photoContainer">
               <div className="drei duotonespeaker"></div>
             </div>
@@ -124,13 +124,29 @@ const IndexPage = () => (
             <p className="speakerTalk-1">Why Giving Up My Dream Job Was the Best Decision I've Ever Made</p>
             <p className="speakerSpiel">With over 8 years experience in the Web Development industry, Drei Alquiros has worked for big and small companies in the Philippines. Today, Drei is a Remote WordPress Tech Support and teaches Web Development to Senior High School students.</p>
           </Col>
-          <Col xs md className="speakerCard">
+          <Col xs md={4} className="speakerCard">
             <div className="photoContainer">
               <div className="mark duotonespeaker"></div>            
             </div>
             <p className="speakerName">Mark Lester Lacsamana</p>
             <p className="speakerTalk-1">The You in UX</p>
             <p className="speakerSpiel">Mark Lester Lacsamana is a designer for Kalibrr and previously for OLX Philippines - designing mobile experiences and solving problems on a day-to-day basis. Mark is also a speaker, is active with design communities as well as founding some, and helps out in advocacies on Human Rights and Public health.</p>
+          </Col>
+          <Col xs md={4} className="speakerCard">
+            <div className="photoContainer">
+              <div className="nico duotonespeaker"></div>            
+            </div>
+            <p className="speakerName">Nico Encarnacion</p>
+            <p className="speakerTalk-1">Enhance Your Workflow. Build a Design Arsenal.</p>
+            <p className="speakerSpiel">Nico is a UX Manager at Make Technology. He loves tinkering with the latest design tools, learning new UX design methods, and improving team efficiency through collaboration as much as he loves cats and the outdoors.</p>
+          </Col>
+          <Col xs md={4} className="speakerCard">
+            <div className="photoContainer">
+              <div className="rhea duotonespeaker"></div>            
+            </div>
+            <p className="speakerName">Rhea Guntalilib</p>
+            <p className="speakerTalk-1">Digital Accessibility in Inclusive Design</p>
+            <p className="speakerSpiel">Rhea is currently an Accessibility Consultant at Level Access Inc, a San Francisco based digital accessibility consulting firm. Being the only blind student at her school then, it was through accessible technologies that she managed to finish school and graduate as one of the class' Magna Cum Laude.</p>
           </Col>
         </Row>
 
@@ -145,7 +161,7 @@ const IndexPage = () => (
               <div className="alexis duotoneworkshop"></div>
             </div>
             <p className="speakerName">Alexis Collado</p>
-            <p className="speakerTalk-2">Product Design 101</p>
+            <p className="speakerTalk-2">Digital Product Design for Startups</p>
             <p className="speakerSpiel">Alexis Collado is a digital product designer at Kalibrr, helping transform the way candidates find jobs and companies hire talent. His podcast, Roots (https://rootspodcast.design), tells the stories of great Filipino designers he’s met. He is a core member and volunteer of UX Philippines, where he helps organize meet-ups and conferences about user experience and design.</p>
           </Col>
           <Col xs md className="speakerCard">
@@ -153,7 +169,7 @@ const IndexPage = () => (
               <div className="sam duotoneworkshop"></div>
             </div>
             <p className="speakerName">Samantha Rose Cruz</p>
-            <p className="speakerTalk-2">CSS/SVG Animations</p>
+            <p className="speakerTalk-2">Building Better Interfaces and User Experiences Through Animation</p>
             <p className="speakerSpiel">Sam is a Product Designer and Front End Web Developer working at Make Technology. Sam has worked for both startups and big companies in the past like Challonge and Proudcloud. Sam also founded ManilaCSS - a community to promote CSS best practices and gather developers to talk anything under the CSS umbrella.</p>
           </Col>
           <Col xs md className="speakerCard">
@@ -161,7 +177,7 @@ const IndexPage = () => (
               <div className="mj duotoneworkshop"></div>            
             </div>
             <p className="speakerName">Mike Jaren Yap</p>
-            <p className="speakerTalk-2">Back to Basics: HTML and CSS Fundamentals</p>
+            <p className="speakerTalk-2">Web Crash Course: Learning HTML and CSS Fundamentals</p>
             <p className="speakerSpiel">Mike Jaren Yap is a senior taking up BS-MS Computer Science at De La Salle University. As the current president of (and a co-founder) User Experience Society - DLSU, MJ developed various projects and workshops inside campus. MJ aims to inspire others to become “Leaders of Design and Innovation” through talks.</p>
           </Col>
         </Row>

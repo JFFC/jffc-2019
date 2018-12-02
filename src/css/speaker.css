@@ -37,7 +37,7 @@
     color: #00E6B9;
     font-size: 18px;
     letter-spacing: 0.86px;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
     height: 44px;
 }
 
@@ -46,7 +46,7 @@
     font-size: 18px;
     letter-spacing: 0.86px;
 
-    margin-bottom: 15px;
+    padding-bottom: 15px;
     height: 44px;
 }
 
@@ -91,6 +91,18 @@
 }
 .mark {
     background: url(../images/speakers/plenary/mark.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+.nico {
+    background: url(../images/speakers/plenary/nico.png) no-repeat center center;
+    background-size: cover;
+    height: 240px;
+    width: 240px;
+}
+.rhea {
+    background: url(../images/speakers/plenary/rhea.png) no-repeat center center;
     background-size: cover;
     height: 240px;
     width: 240px;
