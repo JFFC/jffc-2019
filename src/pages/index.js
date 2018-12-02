@@ -233,10 +233,20 @@ const IndexPage = () => (
                 <li>Developers' Society</li>
               </ul>
             </div>
+
+            <br/>
             
+          </Col>
+          <Col xs={12} md={12} className="faqSectionHeader">
+            <h3>Are tickets refundable?</h3>
+          </Col>
+          <Col xs={12} md={12} className="faqBody">
+            <p>All ticket sales are considered final. However, tickets are transferable provided that the person you will transfer the ticket to is also a student.</p>
+
+            <p>Please send us an email at <a href="mailto:jffcasia@pwdo.org"><span className="aboutHighlight">jffcasia@pwdo.org</span></a> with the name, contact details, and the school of the person you wish to transfer the ticket to, along with reference number of the Eventbrite transaction or the reference number of your GCash or PayMaya offline payment.</p>
+
             <br/>
             <p>Didn't find answers to your inquiry? Drop us a line at <a href="mailto:jffcasia@pwdo.org"><span className="aboutHighlight">jffcasia@pwdo.org</span></a></p>
-            
           </Col>
         </Row>
       </Grid>
