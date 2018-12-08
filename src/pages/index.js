@@ -17,6 +17,7 @@ import tomweb from '../images/sponsors/tomweb.png';
 import pwdo from '../images/sponsors/pwdo.png';
 import pcoa from '../images/sponsors/pcoa.png';
 import jffclogo from '../images/logos/jffcmain.png';
+import dlsu from '../images/sponsors/ccs.jpg';
 
 const IndexPage = () => (
   <div>
@@ -290,6 +291,9 @@ const IndexPage = () => (
           </Col>
           <Col>
             <img src={pcoa} height={100} alt="Philippine Computing Organizations Alliance"></img>
+          </Col>
+          <Col>
+            <img src={dlsu} height={100} alt="De La Salle University College of Computer Studies"></img>
           </Col>
         </Row>
         <Row className="major">
